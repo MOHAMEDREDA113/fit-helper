@@ -1,0 +1,23 @@
+name: fit_helper
+description: A personalized fitness and workout planner.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  flutter_local_notifications: ^15.1.1
+  http: ^0.13.5
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
